@@ -62,7 +62,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
-  - Grave
+  - {t: '`', s: '~'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - NUBS
