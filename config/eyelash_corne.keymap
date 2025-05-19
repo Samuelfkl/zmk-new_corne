@@ -86,7 +86,7 @@
             bindings = <
 &studio_unlock   &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP            &kp F6       &kp F7     &kp PAGE_UP       &kp UP      &kp PAGE_DOWN          &kp DEL
 &trans  &trans      &mkp LCLK   &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &kp LEFT     &kp DOWN    &kp RIGHT        &kp DEL
-&trans  &sys_reset  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&bt BT_CLR  &sys_reset  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                 &trans      &trans      &trans                                                                   &trans       &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
